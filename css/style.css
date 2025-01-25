@@ -520,6 +520,17 @@ header.shadow {
     padding: 50px 4%;
   }
 
+  .bars-box {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bars-box img {
+    width: 50%;
+    /* Adjusts the image width for small screens */
+    margin-bottom: 10px;
+  }
 
 }
 
@@ -663,5 +674,16 @@ header.shadow {
     margin-left: 25%;
   }
 
+  .bars-box {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bars-box img {
+    width: 50%;
+    /* Adjusts the image width for small screens */
+    margin-bottom: 10px;
+  }
 
 }
