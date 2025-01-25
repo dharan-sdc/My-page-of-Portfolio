@@ -272,7 +272,7 @@ header.shadow {
 .bars-box img {
   margin: 20px;
   width: 12%;
-  padding-left: 4rem;
+
   object-position: center;
 }
 
@@ -281,6 +281,21 @@ header.shadow {
   display: flex;
   padding: 1rem 0;
   margin-bottom: 1rem;
+}
+
+/* Mobile View */
+@media (max-width: 600px) {
+  .bars-box {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bars-box img {
+    width: 50%;
+    /* Adjusts the image width for small screens */
+    margin-bottom: 10px;
+  }
 }
 
 .services-content {
@@ -493,9 +508,7 @@ header.shadow {
     padding: 50px 4%;
   }
 
-  .bars-box img {
-    width: 18%;
-  }
+
 }
 
 /* For screens with a maximum width of 881px */
@@ -585,11 +598,7 @@ header.shadow {
     padding-left: 0;
   }
 
-  .bars-box img {
-    width: 27%;
-    display: flex;
-    justify-content: center;
-  }
+
 
   .contact-form form {
     width: 300px;
@@ -632,7 +641,5 @@ header.shadow {
     margin-left: 25%;
   }
 
-  .bars-box img {
-    width: 12%;
-  }
+
 }
