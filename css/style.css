@@ -482,42 +482,8 @@ header.shadow {
 }
 
 /* Making Responsive */
-/* Responsive styles */
-@media (max-width: 768px) {
-  .skills-container {
-    grid-template-columns: 1fr 1fr;
-  }
 
-  .bars-box img {
-    width: 20%;
-    padding-left: 2rem;
-  }
-
-  .services-content {
-    grid-template-columns: 1fr 1fr;
-    column-gap: 3rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .skills-container {
-    grid-template-columns: 1fr;
-    margin-top: 2rem;
-  }
-
-  .bars-box img {
-    width: 30%;
-    padding-left: 0;
-    margin: 10px auto;
-  }
-
-  .services-content {
-    margin-left: 25px;
-    grid-template-columns: 1fr;
-    column-gap: 2rem;
-  }
-}
-
+/* For screens with a maximum width of 991px */
 @media (max-width: 991px) {
   header {
     padding: 18px 4%;
@@ -532,6 +498,7 @@ header.shadow {
   }
 }
 
+/* For screens with a maximum width of 881px */
 @media (max-width: 881px) {
   :root {
     --big-font: 2.7rem;
@@ -539,6 +506,7 @@ header.shadow {
   }
 }
 
+/* For screens with a maximum width of 768px */
 @media (max-width: 768px) {
   :root {
     --big-font: 2.4rem;
@@ -617,14 +585,11 @@ header.shadow {
     padding-left: 0;
   }
 
-  /* 
   .bars-box img {
     width: 27%;
-    
     display: flex;
     justify-content: center;
-  }  */
-
+  }
 
   .contact-form form {
     width: 300px;
@@ -635,6 +600,7 @@ header.shadow {
   }
 }
 
+/* For screens with a maximum width of 340px */
 @media (max-width: 340px) {
   :root {
     --big-font: 1.7rem;
